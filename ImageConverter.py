@@ -4,6 +4,7 @@ import os
 from PIL import Image
 
 #user input for source folder, make sure directory ends with /
+#ensure that source directory contains only images to be altered
 source = input("Input source directory here: ")
 
 #creates list of images in folder to run through with for loop
